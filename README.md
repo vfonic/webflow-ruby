@@ -1,5 +1,9 @@
 # Webflow [![Build Status](https://github.com/vfonic/webflow-rb/workflows/build/badge.svg)](https://github.com/vfonic/webflow-rb/actions)
 
+## Note
+
+This is an active fork of the great [webflow-ruby](https://github.com/penseo/webflow-ruby) gem. [webflow-ruby](https://github.com/penseo/webflow-ruby) gem still works for Webflow API v1. If you're looking for a similar gem API (method names) but for Webflow API v2, try webflow-rb [api-v2](https://github.com/vfonic/webflow-rb/tree/api-v2) branch.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -24,7 +28,7 @@ gem install webflow-rb
 
 Check out [lib/webflow/client.rb](lib/webflow/client.rb).
 
-Check the documentation at: https://developers.webflow.com/reference/list-collection-items
+Check the official Webflow API v2 documentation at: https://developers.webflow.com/reference/list-collection-items
 
 Basic usage:
 
@@ -52,6 +56,7 @@ def delete_item(collection_id, item_id)
 ## Contributing
 
 Bug reports and pull requests are welcome!
+If you're missing certain functionality, please open an issue or create a pull request.
 
 ## Plugins
 
