@@ -38,9 +38,7 @@ class WebflowTest < Minitest::Test
   def test_it_paginates_items
     VCR.use_cassette('test_it_paginates_items') do
       names = ['Test 1', 'Test 2', 'Test 3', 'Test 4']
-      names.each do |name|
-        CLIENT.create_item(COLLECTION_ID, { name: name })
-      end
+      names.each { |name| CLIENT.create_item(COLLECTION_ID, { name: name }) }
 
       page_one = CLIENT.list_items(COLLECTION_ID, limit: 2, offset: 0)
       page_two = CLIENT.list_items(COLLECTION_ID, limit: 2, offset: 2)
@@ -58,11 +56,9 @@ class WebflowTest < Minitest::Test
   end
 
   def test_it_yields_items_when_a_block_is_given
-    VCR.use_cassette('test_it_paginates_items') do
+    VCR.use_cassette('test_it_yields_items_when_a_block_is_given') do
       names = ['Test 1', 'Test 2', 'Test 3', 'Test 4']
-      names.each do |name|
-        CLIENT.create_item(COLLECTION_ID, { name: name })
-      end
+      names.each { |name| CLIENT.create_item(COLLECTION_ID, { name: name }) }
 
       limit = 3
 
@@ -129,14 +125,12 @@ class WebflowTest < Minitest::Test
     end
   end
 
-  def test_it_deletes_items # rubocop:disable Metrics/MethodLength
+  def test_it_deletes_items
     VCR.use_cassette('test_it_lists_and_deletes_items') do
       names = ['To delete Test 1', 'To delete Test 2']
-      names.each do |name|
-        CLIENT.create_item(COLLECTION_ID, { name: name })
-      end
-      items = CLIENT.list_items(COLLECTION_ID)
-      items.each do |item|
+      names.each { |name| CLIENT.create_item(COLLECTION_ID, { name: name }) }
+
+      CLIENT.list_items(COLLECTION_ID).each do |item|
         next unless item.dig(:fieldData, :name).start_with?('To delete')
 
         result = CLIENT.delete_item(COLLECTION_ID, item.fetch(:id))

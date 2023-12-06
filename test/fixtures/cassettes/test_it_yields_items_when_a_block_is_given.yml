@@ -23,7 +23,7 @@ http_interactions:
       message: Accepted
     headers:
       Date:
-      - Wed, 06 Dec 2023 04:21:04 GMT
+      - Wed, 06 Dec 2023 04:20:55 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -31,26 +31,26 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - W/"106-5yvHQb5c5q82OCT9Pg6rrYpYctA"
+      - W/"106-pk4wt4XqpT/6zjCjxxs18JQ4CtA"
       Retry-After:
-      - '51'
+      - '60'
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '50'
+      - '59'
       X-Response-Time:
-      - 220.214ms
+      - 257.152ms
     body:
       encoding: UTF-8
-      string: '{"id":"656ff6b091a8ac67b6cda16f","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":null,"lastUpdated":"2023-12-06T04:21:04.754Z","createdOn":"2023-12-06T04:21:04.754Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
-        1","slug":"test-1-bf3bb"}}'
-  recorded_at: Wed, 06 Dec 2023 04:21:04 GMT
+      string: '{"id":"656ff6a710af3ebbe278d1ce","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":null,"lastUpdated":"2023-12-06T04:20:55.663Z","createdOn":"2023-12-06T04:20:55.663Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
+        1","slug":"test-1-50b7f"}}'
+  recorded_at: Wed, 06 Dec 2023 04:20:55 GMT
 - request:
     method: post
     uri: https://api.webflow.com/v2/collections/655276efe9424bcefd3231a2/items/publish
     body:
       encoding: UTF-8
-      string: '{"itemIds":["656ff6b091a8ac67b6cda16f"]}'
+      string: '{"itemIds":["656ff6a710af3ebbe278d1ce"]}'
     headers:
       Accept:
       - application/json
@@ -68,7 +68,7 @@ http_interactions:
       message: Accepted
     headers:
       Date:
-      - Wed, 06 Dec 2023 04:21:05 GMT
+      - Wed, 06 Dec 2023 04:20:56 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -76,19 +76,19 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - W/"3d-UqzfCT7zK6kHkcI6K3zdaE7As/Q"
+      - W/"3d-xzmRQSORA/fCfiwQFHiInQ05mbc"
       Retry-After:
-      - '51'
+      - '60'
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '49'
+      - '58'
       X-Response-Time:
-      - 326.930ms
+      - 305.564ms
     body:
       encoding: UTF-8
-      string: '{"publishedItemIds":["656ff6b091a8ac67b6cda16f"],"errors":[]}'
-  recorded_at: Wed, 06 Dec 2023 04:21:05 GMT
+      string: '{"publishedItemIds":["656ff6a710af3ebbe278d1ce"],"errors":[]}'
+  recorded_at: Wed, 06 Dec 2023 04:20:56 GMT
 - request:
     method: post
     uri: https://api.webflow.com/v2/collections/655276efe9424bcefd3231a2/items
@@ -112,7 +112,7 @@ http_interactions:
       message: Accepted
     headers:
       Date:
-      - Wed, 06 Dec 2023 04:21:06 GMT
+      - Wed, 06 Dec 2023 04:20:58 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -120,26 +120,26 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - W/"106-FjKaJm8zlLapEVI4h3vafYeSLk4"
+      - W/"106-5s9tK/8JEkfpELZ4hOaBtrxSxKg"
       Retry-After:
-      - '50'
+      - '59'
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '48'
+      - '57'
       X-Response-Time:
-      - 430.038ms
+      - 1672.269ms
     body:
       encoding: UTF-8
-      string: '{"id":"656ff6b2c5093672145412d5","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":null,"lastUpdated":"2023-12-06T04:21:06.335Z","createdOn":"2023-12-06T04:21:06.335Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
-        2","slug":"test-2-1aec5"}}'
-  recorded_at: Wed, 06 Dec 2023 04:21:06 GMT
+      string: '{"id":"656ff6aa1ba43b5ab6ade65e","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":null,"lastUpdated":"2023-12-06T04:20:58.313Z","createdOn":"2023-12-06T04:20:58.313Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
+        2","slug":"test-2-99c4a"}}'
+  recorded_at: Wed, 06 Dec 2023 04:20:58 GMT
 - request:
     method: post
     uri: https://api.webflow.com/v2/collections/655276efe9424bcefd3231a2/items/publish
     body:
       encoding: UTF-8
-      string: '{"itemIds":["656ff6b2c5093672145412d5"]}'
+      string: '{"itemIds":["656ff6aa1ba43b5ab6ade65e"]}'
     headers:
       Accept:
       - application/json
@@ -157,7 +157,7 @@ http_interactions:
       message: Accepted
     headers:
       Date:
-      - Wed, 06 Dec 2023 04:21:07 GMT
+      - Wed, 06 Dec 2023 04:20:59 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -165,19 +165,19 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - W/"3d-ZS2A7M4mkTJ0kJiKxTeoaGaIdJ8"
+      - W/"3d-I/Fz4+shss/ssLFNKvGwf6uxbMw"
       Retry-After:
-      - '49'
+      - '57'
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '47'
+      - '56'
       X-Response-Time:
-      - 619.111ms
+      - 284.004ms
     body:
       encoding: UTF-8
-      string: '{"publishedItemIds":["656ff6b2c5093672145412d5"],"errors":[]}'
-  recorded_at: Wed, 06 Dec 2023 04:21:07 GMT
+      string: '{"publishedItemIds":["656ff6aa1ba43b5ab6ade65e"],"errors":[]}'
+  recorded_at: Wed, 06 Dec 2023 04:20:59 GMT
 - request:
     method: post
     uri: https://api.webflow.com/v2/collections/655276efe9424bcefd3231a2/items
@@ -201,7 +201,7 @@ http_interactions:
       message: Accepted
     headers:
       Date:
-      - Wed, 06 Dec 2023 04:21:08 GMT
+      - Wed, 06 Dec 2023 04:21:00 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -209,26 +209,26 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - W/"106-ZLQv/d5eHPJF0LPrGSwT/cbWO5Q"
+      - W/"106-fbZNvcMQ3R+Iq/XYbmzKZ75f5xI"
       Retry-After:
-      - '48'
+      - '56'
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '46'
+      - '55'
       X-Response-Time:
-      - 422.040ms
+      - 349.143ms
     body:
       encoding: UTF-8
-      string: '{"id":"656ff6b4f884c2b04892f1c2","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":null,"lastUpdated":"2023-12-06T04:21:08.551Z","createdOn":"2023-12-06T04:21:08.551Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
-        3","slug":"test-3-fa23d"}}'
-  recorded_at: Wed, 06 Dec 2023 04:21:08 GMT
+      string: '{"id":"656ff6ac10e9124b1c3d7055","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":null,"lastUpdated":"2023-12-06T04:21:00.238Z","createdOn":"2023-12-06T04:21:00.238Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
+        3","slug":"test-3-ae1cf"}}'
+  recorded_at: Wed, 06 Dec 2023 04:21:00 GMT
 - request:
     method: post
     uri: https://api.webflow.com/v2/collections/655276efe9424bcefd3231a2/items/publish
     body:
       encoding: UTF-8
-      string: '{"itemIds":["656ff6b4f884c2b04892f1c2"]}'
+      string: '{"itemIds":["656ff6ac10e9124b1c3d7055"]}'
     headers:
       Accept:
       - application/json
@@ -246,7 +246,7 @@ http_interactions:
       message: Accepted
     headers:
       Date:
-      - Wed, 06 Dec 2023 04:21:09 GMT
+      - Wed, 06 Dec 2023 04:21:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -254,19 +254,19 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - W/"3d-Qcej3JW7wpOVWg/EfZx1Mi5M41U"
+      - W/"3d-RrAzV7WYewy3uhAG4YQDu/5v/RQ"
       Retry-After:
-      - '47'
+      - '55'
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '45'
+      - '54'
       X-Response-Time:
-      - 511.123ms
+      - 474.995ms
     body:
       encoding: UTF-8
-      string: '{"publishedItemIds":["656ff6b4f884c2b04892f1c2"],"errors":[]}'
-  recorded_at: Wed, 06 Dec 2023 04:21:09 GMT
+      string: '{"publishedItemIds":["656ff6ac10e9124b1c3d7055"],"errors":[]}'
+  recorded_at: Wed, 06 Dec 2023 04:21:01 GMT
 - request:
     method: post
     uri: https://api.webflow.com/v2/collections/655276efe9424bcefd3231a2/items
@@ -290,7 +290,7 @@ http_interactions:
       message: Accepted
     headers:
       Date:
-      - Wed, 06 Dec 2023 04:21:10 GMT
+      - Wed, 06 Dec 2023 04:21:02 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -298,26 +298,26 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - W/"106-kE7p4sjEnlEWNZb2NRr5Kzwcplw"
+      - W/"106-RgyTV2jPlOkjNIX8cWqH3mS7DiY"
       Retry-After:
-      - '46'
+      - '54'
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '44'
+      - '53'
       X-Response-Time:
-      - 330.537ms
+      - 427.887ms
     body:
       encoding: UTF-8
-      string: '{"id":"656ff6b61d753fae31987885","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":null,"lastUpdated":"2023-12-06T04:21:10.565Z","createdOn":"2023-12-06T04:21:10.565Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
-        4","slug":"test-4-b0ed7"}}'
-  recorded_at: Wed, 06 Dec 2023 04:21:10 GMT
+      string: '{"id":"656ff6aeb121aa2f8f0fdd04","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":null,"lastUpdated":"2023-12-06T04:21:02.156Z","createdOn":"2023-12-06T04:21:02.156Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
+        4","slug":"test-4-98475"}}'
+  recorded_at: Wed, 06 Dec 2023 04:21:01 GMT
 - request:
     method: post
     uri: https://api.webflow.com/v2/collections/655276efe9424bcefd3231a2/items/publish
     body:
       encoding: UTF-8
-      string: '{"itemIds":["656ff6b61d753fae31987885"]}'
+      string: '{"itemIds":["656ff6aeb121aa2f8f0fdd04"]}'
     headers:
       Accept:
       - application/json
@@ -335,7 +335,7 @@ http_interactions:
       message: Accepted
     headers:
       Date:
-      - Wed, 06 Dec 2023 04:21:12 GMT
+      - Wed, 06 Dec 2023 04:21:03 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -343,22 +343,22 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - W/"3d-NBy2WlBMujZOBcABa34Tzl1WzsE"
+      - W/"3d-T5/FMXUKfjvwhAH/kmK3Fw+mlNU"
       Retry-After:
-      - '45'
+      - '53'
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '43'
+      - '52'
       X-Response-Time:
-      - 746.091ms
+      - 428.404ms
     body:
       encoding: UTF-8
-      string: '{"publishedItemIds":["656ff6b61d753fae31987885"],"errors":[]}'
-  recorded_at: Wed, 06 Dec 2023 04:21:11 GMT
+      string: '{"publishedItemIds":["656ff6aeb121aa2f8f0fdd04"],"errors":[]}'
+  recorded_at: Wed, 06 Dec 2023 04:21:03 GMT
 - request:
     method: get
-    uri: https://api.webflow.com/v2/collections/655276efe9424bcefd3231a2/items?limit=2&offset=0
+    uri: https://api.webflow.com/v2/collections/655276efe9424bcefd3231a2/items?limit=3&offset=0
     body:
       encoding: US-ASCII
       string: ''
@@ -379,73 +379,28 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 06 Dec 2023 04:21:12 GMT
+      - Wed, 06 Dec 2023 04:21:04 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '628'
+      - '913'
       Connection:
       - keep-alive
       Etag:
-      - W/"274-8kd6UQU8lKfMpgJSUqWy/+xpsAo"
+      - W/"391-SpWgdzIVKvwc7HbB2y30tN8vVnI"
       Retry-After:
-      - '43'
+      - '52'
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '42'
+      - '51'
       X-Response-Time:
-      - 32.104ms
+      - 29.730ms
     body:
       encoding: UTF-8
-      string: '{"items":[{"id":"656ff6b61d753fae31987885","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":"2023-12-06T04:21:11.457Z","lastUpdated":"2023-12-06T04:21:11.457Z","createdOn":"2023-12-06T04:21:10.565Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
-        4","slug":"test-4-b0ed7"}},{"id":"656ff6b4f884c2b04892f1c2","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":"2023-12-06T04:21:09.653Z","lastUpdated":"2023-12-06T04:21:09.653Z","createdOn":"2023-12-06T04:21:08.551Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
-        3","slug":"test-3-fa23d"}}],"pagination":{"limit":2,"offset":0,"total":26}}'
-  recorded_at: Wed, 06 Dec 2023 04:21:12 GMT
-- request:
-    method: get
-    uri: https://api.webflow.com/v2/collections/655276efe9424bcefd3231a2/items?limit=2&offset=2
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      Content-Type:
-      - application/json
-      Authorization:
-      - Bearer <TEST_API_TOKEN>
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 06 Dec 2023 04:21:13 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '628'
-      Connection:
-      - keep-alive
-      Etag:
-      - W/"274-LdJ3hCx6MqgWl9GbBK9f+By0Bbs"
-      Retry-After:
-      - '43'
-      X-Ratelimit-Limit:
-      - '60'
-      X-Ratelimit-Remaining:
-      - '41'
-      X-Response-Time:
-      - 31.037ms
-    body:
-      encoding: UTF-8
-      string: '{"items":[{"id":"656ff6b2c5093672145412d5","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":"2023-12-06T04:21:07.318Z","lastUpdated":"2023-12-06T04:21:07.318Z","createdOn":"2023-12-06T04:21:06.335Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
-        2","slug":"test-2-1aec5"}},{"id":"656ff6b091a8ac67b6cda16f","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":"2023-12-06T04:21:05.538Z","lastUpdated":"2023-12-06T04:21:05.538Z","createdOn":"2023-12-06T04:21:04.754Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
-        1","slug":"test-1-bf3bb"}}],"pagination":{"limit":2,"offset":2,"total":26}}'
-  recorded_at: Wed, 06 Dec 2023 04:21:12 GMT
+      string: '{"items":[{"id":"656ff6aeb121aa2f8f0fdd04","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":"2023-12-06T04:21:03.222Z","lastUpdated":"2023-12-06T04:21:03.222Z","createdOn":"2023-12-06T04:21:02.156Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
+        4","slug":"test-4-98475"}},{"id":"656ff6ac10e9124b1c3d7055","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":"2023-12-06T04:21:01.349Z","lastUpdated":"2023-12-06T04:21:01.349Z","createdOn":"2023-12-06T04:21:00.238Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
+        3","slug":"test-3-ae1cf"}},{"id":"656ff6aa1ba43b5ab6ade65e","cmsLocaleId":"655276ef2d7dfc2d8eef35a0","lastPublished":"2023-12-06T04:20:59.425Z","lastUpdated":"2023-12-06T04:20:59.425Z","createdOn":"2023-12-06T04:20:58.313Z","isArchived":false,"isDraft":false,"fieldData":{"name":"Test
+        2","slug":"test-2-99c4a"}}],"pagination":{"limit":3,"offset":0,"total":22}}'
+  recorded_at: Wed, 06 Dec 2023 04:21:03 GMT
 recorded_with: VCR 6.2.0
