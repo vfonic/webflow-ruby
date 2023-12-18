@@ -78,7 +78,10 @@ module Webflow
     end
 
     def update_item(collection_id, item_id, data, is_draft: false, is_archived: false)
-      result = patch("/collections/#{collection_id}/items/#{item_id}", { isArchived: is_archived, isDraft: is_draft, fieldData: data }.compact)
+      result = patch(
+        "/collections/#{collection_id}/items/#{item_id}",
+        { isArchived: is_archived, isDraft: is_draft, fieldData: data }.compact
+      )
       publish_item(collection_id, item_id)
       result
     end

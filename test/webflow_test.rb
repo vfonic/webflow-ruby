@@ -98,7 +98,7 @@ class WebflowTest < Minitest::Test
       data = { name: name }
       item = CLIENT.create_item(COLLECTION_ID, data, is_draft: true)
 
-      assert_equal(true, item[:isDraft])
+      assert(item[:isDraft])
     end
   end
 
