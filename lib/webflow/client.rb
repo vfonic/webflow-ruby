@@ -71,14 +71,14 @@ module Webflow
       get("/collections/#{collection_id}/items/#{item_id}")
     end
 
-    def create_item(collection_id, data)
-      result = post("/collections/#{collection_id}/items", { isArchived: false, isDraft: false, fieldData: data })
+    def create_item(collection_id, data, is_draft: false, is_archived: false)
+      result = post("/collections/#{collection_id}/items", { isArchived: is_archived, isDraft: is_draft, fieldData: data })
       publish_item(collection_id, result.fetch(:id))
       result
     end
 
-    def update_item(collection_id, item_id, data)
-      result = patch("/collections/#{collection_id}/items/#{item_id}", { isArchived: false, isDraft: false, fieldData: data }.compact)
+    def update_item(collection_id, item_id, data, is_draft: false, is_archived: false)
+      result = patch("/collections/#{collection_id}/items/#{item_id}", { isArchived: is_archived, isDraft: is_draft, fieldData: data }.compact)
       publish_item(collection_id, item_id)
       result
     end
