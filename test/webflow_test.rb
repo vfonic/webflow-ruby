@@ -92,6 +92,20 @@ class WebflowTest < Minitest::Test
     end
   end
 
+  def test_it_creates_drafts_and_archives
+    VCR.use_cassette('test_it_creates_drafts_and_archives') do
+      name = 'Test Item Name ABC'
+      data = { name: name }
+      item = CLIENT.create_item(COLLECTION_ID, data, is_draft: true)
+
+      assert(item[:isDraft])
+
+      item = CLIENT.update_item(COLLECTION_ID, item.fetch(:id), {}, is_archived: true)
+
+      assert(item[:isArchived])
+    end
+  end
+
   def test_it_raises_validation_errors # rubocop:disable Metrics/MethodLength
     VCR.use_cassette('test_it_raises_validation_errors') do
       data = { unknown: 'this raises an error' }
