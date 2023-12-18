@@ -101,6 +101,7 @@ class WebflowTest < Minitest::Test
       assert(item[:isDraft])
 
       item = CLIENT.update_item(COLLECTION_ID, item.fetch(:id), {}, is_archived: true)
+
       assert(item[:isArchived])
     end
   end
