@@ -58,6 +58,8 @@ def delete_item(collection_id, item_id)
 Bug reports and pull requests are welcome!
 If you're missing certain functionality, please open an issue or create a pull request.
 
+To run all the tests (RuboCop linter and minitest tests), run `bundle exec rake`.
+
 ## Plugins
 
 - [webflow_sync](https://github.com/vfonic/webflow_sync) - Keep Rails models in sync with WebFlow collections.
