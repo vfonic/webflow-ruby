@@ -73,7 +73,7 @@ module Webflow
 
     def create_item(collection_id, data, is_draft: false, is_archived: false)
       result = post("/collections/#{collection_id}/items", { isArchived: is_archived, isDraft: is_draft, fieldData: data })
-      publish_item(collection_id, result.fetch(:id))
+      publish_item(collection_id, result.fetch(:id)) unless result[:isDraft]
       result
     end
 
@@ -82,7 +82,7 @@ module Webflow
         "/collections/#{collection_id}/items/#{item_id}",
         { isArchived: is_archived, isDraft: is_draft, fieldData: data }.compact
       )
-      publish_item(collection_id, item_id)
+      publish_item(collection_id, item_id) unless result[:isDraft]
       result
     end
 
